@@ -4,7 +4,7 @@ from Interfaces.Bebida import Bebida
 class Preparado(Bebida):
   def __init__(self, precio: float, nombre: str, ingredientes: str, tieneAlcohol: bool) -> None:
     '''' Crea una instancia de una bebida preparada '''
-    super().__init__(precio, 'Bebida preparada' + nombre)
+    super().__init__(precio, nombre)
     self.ingredientes = ingredientes.split(',')
     self.tieneAlcohol = tieneAlcohol
 
