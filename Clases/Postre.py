@@ -5,7 +5,7 @@ from Interfaces.Comida import Comida
 
 class Postre(Comida):
   def __str__(self):
-     return 'Clase postre'
+    return 'Clase postre'
 
-  def servir():
+  def servir(self):
     return 'Sirviendo postre'
